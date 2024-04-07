@@ -11,8 +11,8 @@ export class ProfileService {
     'https://drive.google.com/uc?export=download&id=1Qnc6HOq2SlNxVqs3v5Oz8n6wpBrbu70h';
   about2 = `Software Programmer with 1.6 years of experience .
   Expertise in Angular 2+ All versions, React, Javascript,  Node JS and UI with Responsive Designs .
-  Have good understanding of Jquery, Bootstrap, MongoDB, Firebase, and MYSQL
-  Have good knowledge in frontend test automation tool - Cypress`;
+  Having good understanding of Jquery, Bootstrap, MongoDB, Firebase, and MYSQL
+  Having good knowledge in frontend test automation tool - Cypress`;
 
   about =
     'Lover of innovation and everything related to generate new knowledge.Face problems with a smile and solve them as soon as possible. Very calculated about the time I spend and work I do.';
@@ -24,7 +24,7 @@ export class ProfileService {
       location: 'Banglore',
       timeline: 'Jun 2022 to Dec 2023',
       role: 'Software Programmer',
-      work: 'Working as a full stack developer .Responsible for handling the UI in Angular and Managing the api calls in Nodejs.',
+      work: 'Worked as a full stack developer .Responsible for handling the UI in Angular and Managing the api calls in Nodejs.',
     },
     {
       id: 2,
@@ -43,7 +43,7 @@ export class ProfileService {
       desc: '',
       githurl: 'https://github.com/Druthvikkratos/Rack-Management',
       imgUrl: 'assets/images/projectscreenshot.png',
-      tech: 'Angular 16 , Nodejs',
+      tech: 'Angular 16 , Nodejs, Nestjs, Postgres',
     },
     {
       id: 2,
@@ -51,7 +51,7 @@ export class ProfileService {
       desc: '',
       githurl: 'https://github.com/Druthvikkratos/basic-crud-mean',
       imgUrl: 'assets/images/meancrud.png',
-      tech: 'Angular 16 , Nodejs',
+      tech: 'Angular 16 , Nodejs, Express, Mongodb',
     },
   ];
 
@@ -114,17 +114,14 @@ export class ProfileService {
   }
 
   getProjects(): Observable<any> {
-    // return this.http.get(this.baseUrl + 'skills');
     return this.projects;
   }
 
   skills(): Observable<any> {
-    // return this.http.get(this.baseUrl + 'skills');
     return this.skillsData;
   }
 
   educations(): Observable<any> {
-    // return this.http.get(this.baseUrl + 'skills');
     return this.education;
   }
 }
