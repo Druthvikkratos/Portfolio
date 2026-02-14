@@ -2,9 +2,10 @@ import { Component } from '@angular/core';
 import { ProfileService } from 'src/app/services/profile.service';
 
 @Component({
-  selector: 'app-education',
-  templateUrl: './education.component.html',
-  styleUrls: ['./education.component.css'],
+    selector: 'app-education',
+    templateUrl: './education.component.html',
+    styleUrls: ['./education.component.css'],
+    standalone: false
 })
 export class EducationComponent {
   skills: any;

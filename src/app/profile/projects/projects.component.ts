@@ -2,9 +2,10 @@ import { Component } from '@angular/core';
 import { ProfileService } from 'src/app/services/profile.service';
 
 @Component({
-  selector: 'app-projects',
-  templateUrl: './projects.component.html',
-  styleUrls: ['./projects.component.css'],
+    selector: 'app-projects',
+    templateUrl: './projects.component.html',
+    styleUrls: ['./projects.component.css'],
+    standalone: false
 })
 export class ProjectsComponent {
   paginationConfig: any;
