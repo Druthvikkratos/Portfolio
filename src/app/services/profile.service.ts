@@ -8,31 +8,55 @@ export class ProfileService {
   constructor() {}
 
   resumeurl =
-    'https://drive.google.com/uc?export=download&id=1Qnc6HOq2SlNxVqs3v5Oz8n6wpBrbu70h';
-  about2 = `Software Programmer with 1.6 years of experience .
-  Expertise in Angular 2+ All versions, React, Javascript,  Node JS and UI with Responsive Designs .
-  Having good understanding of Jquery, Bootstrap, MongoDB, Firebase, and MYSQL
-  Having good knowledge in frontend test automation tool - Cypress`;
+    'https://drive.google.com/file/d/11zbrc1Is-W4Cbfc7LEO_e4DoMrksSb8s/view?usp=sharing';
+  about2 = `Software Developer with 3.5 years of professional experience building modern web applications, primarily focused on Angular and frontend development. I specialize in creating clean, responsive, and high-performance user interfaces that deliver smooth user experiences .
+  I have strong hands-on experience working with Angular (multiple versions), JavaScript, TypeScript, Node.js, and modern UI frameworks, along with backend exposure in building and integrating REST APIs. I’ve also worked with technologies like MongoDB, Firebase, MySQL, Bootstrap, and Cypress for test automation.`;
 
   about =
-    'Lover of innovation and everything related to generate new knowledge.Face problems with a smile and solve them as soon as possible. Very calculated about the time I spend and work I do.';
+    'Lover of innovation and everything related to generate new knowledge.I’m passionate about turning ideas into efficient, scalable, and user-friendly applications.';
 
   exprienceData: any = [
     {
       id: 1,
+      company: 'Infomap Solutions Pvt Ltd',
+      location: 'Banglore',
+      timeline: 'Jun 2024 to Present',
+      role: 'Software Developer',
+      work: 'Working as a Frontend Developer, focused on building and enhancing enterprise-level web applications using Angular.',
+      contributions:
+      `Developing scalable and responsive UI using Angular and TypeScript . 
+       Implementing new features based on business requirements .
+       Integrating REST APIs and handling data communication .
+       Improving application performance and user experience .
+       Collaborating with backend and design teams .
+       Contributing to minor backend and API-related tasks when required.`
+    },
+    {
+      id: 2,
       company: 'Electem Business Solution',
       location: 'Banglore',
       timeline: 'Jun 2022 to Dec 2023',
       role: 'Software Programmer',
-      work: 'Worked as a full stack developer .Responsible for handling the UI in Angular and Managing the api calls in Nodejs.',
+      work: 'Worked as a Full Stack Developer building web applications using Angular and Node.js.',
+      contributions:
+      `Developed responsive frontend using Angular Angular and TypeScript . 
+       Built and integrated REST APIs using Node.js .
+       Handled business logic and API integration .
+       Improving application performance and user experience .
+       Worked with Postgres and MySQL .
+       Performed frontend testing using Cypress.`
     },
     {
-      id: 2,
+      id: 3,
       company: 'Kaps System Private Limited',
       location: 'Banglore',
       timeline: 'Aug 2020 to Dec 2021',
       role: 'Process Associate',
-      work: 'Worked as a process associate .Responsible for analyze the requirements from client and convey to teammates.',
+      work: 'Worked as a Process Associate handling client requirements..',
+      contributions:
+      `Analyzed client requirements . 
+       Coordinated with internal teams .
+       Ensured smooth workflow communication.`
     },
   ];
 
@@ -52,6 +76,14 @@ export class ProfileService {
       githurl: 'https://github.com/Druthvikkratos/basic-crud-mean',
       imgUrl: 'assets/images/meancrud.png',
       tech: 'Angular 16 , Nodejs, Express, Mongodb',
+    },
+    {
+      id: 3,
+      title: 'Portfolio',
+      desc: '',
+      githurl: 'https://github.com/Druthvikkratos/postman-portfolio',
+      imgUrl: 'assets/images/postman-portfolio.png',
+      tech: 'Angular 20 , Signals',
     },
   ];
 
@@ -79,7 +111,7 @@ export class ProfileService {
   skillsData: any = [
     {
       id: '1',
-      skill: 'ANGULAR 11',
+      skill: 'ANGULAR 11,12,16,19',
       progress: '80%',
     },
     {
@@ -89,21 +121,26 @@ export class ProfileService {
     },
     {
       id: '3',
-      skill: 'JAVASCRIPT JQUERY',
+      skill: 'TYPESCRIPT',
       progress: '50%',
     },
     {
       id: '4',
-      skill: 'SQL,POSTGRES,MONOGO, FIREBASE',
-      progress: '75%',
+      skill: 'JAVASCRIPT',
+      progress: '50%',
     },
     {
       id: '5',
+      skill: 'POSTGRES, SQL , MONOGO, FIREBASE',
+      progress: '75%',
+    },
+    {
+      id: '6',
       skill: 'CYPRESS',
       progress: '60%',
     },
     {
-      id: '6',
+      id: '7',
       skill: 'HTML/CSS',
       progress: '60%',
     },
