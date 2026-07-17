@@ -8,7 +8,7 @@ export class ProfileService {
   constructor() {}
 
   resumeurl =
-    'https://drive.google.com/file/d/11zbrc1Is-W4Cbfc7LEO_e4DoMrksSb8s/view?usp=sharing';
+    'https://drive.google.com/file/d/10f89o_3W-EeDqVw0WshoddRdSoKxafWY/view?usp=sharing';
   about2 = `Software Developer with 3.5 years of professional experience building modern web applications, primarily focused on Angular and frontend development. I specialize in creating clean, responsive, and high-performance user interfaces that deliver smooth user experiences .
   I have strong hands-on experience working with Angular (multiple versions), JavaScript, TypeScript, Node.js, and modern UI frameworks, along with backend exposure in building and integrating REST APIs. I’ve also worked with technologies like MongoDB, Firebase, MySQL, Bootstrap, and Cypress for test automation.`;
 
