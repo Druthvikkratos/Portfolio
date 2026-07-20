@@ -1,1 +1,27 @@
 @import "bootstrap/dist/css/bootstrap.css";
+
+
+.title {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-top: 20px;
+  letter-spacing: -0.5px;
+}
+
+.category {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #60a5fa; /* accent color instead of plain white — pulls the eye */
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 24px;
+}
+.page-header {
+  background: none !important;
+}   
+
+.navbar {
+  background: rgba(0, 0, 0, 0.55);
+  backdrop-filter: blur(4px);
+}
+

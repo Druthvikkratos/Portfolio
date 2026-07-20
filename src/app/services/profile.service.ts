@@ -9,8 +9,8 @@ export class ProfileService {
 
   resumeurl =
     'https://drive.google.com/file/d/10f89o_3W-EeDqVw0WshoddRdSoKxafWY/view?usp=sharing';
-  about2 = `Software Developer with 3.5 years of professional experience building modern web applications, primarily focused on Angular and frontend development. I specialize in creating clean, responsive, and high-performance user interfaces that deliver smooth user experiences .
-  I have strong hands-on experience working with Angular (multiple versions), JavaScript, TypeScript, Node.js, and modern UI frameworks, along with backend exposure in building and integrating REST APIs. I’ve also worked with technologies like MongoDB, Firebase, MySQL, Bootstrap, and Cypress for test automation.`;
+  about2 = `Full Stack Developer with 3.5 years of experience building enterprise financial web applications. I specialize in Angular frontend architecture — HTTP interceptors, JWT-based authentication, role-based route guards (RBAC), reactive forms, AG Grid, and SSO integration. On the backend, I work with Node.js, NestJS, Sequelize, and PostgreSQL for RESTful API development. I've also set up and managed AWS infrastructure (EC2, RDS, IAM, CodePipeline, CodeDeploy, Lambda, SNS, EventBridge) for CI/CD automation. .
+  Currently upskilling in Angular 21/22 (Signals, zoneless change detection) and backend development with NestJS and Prisma.`;
 
   about =
     'Lover of innovation and everything related to generate new knowledge.I’m passionate about turning ideas into efficient, scalable, and user-friendly applications.';
@@ -24,12 +24,8 @@ export class ProfileService {
       role: 'Software Developer',
       work: 'Working as a Frontend Developer, focused on building and enhancing enterprise-level web applications using Angular.',
       contributions:
-      `Developing scalable and responsive UI using Angular and TypeScript . 
-       Implementing new features based on business requirements .
-       Integrating REST APIs and handling data communication .
-       Improving application performance and user experience .
-       Collaborating with backend and design teams .
-       Contributing to minor backend and API-related tasks when required.`
+      
+      `Designed and implemented Angular project architecture including HTTP interceptor pipelines, JWT authentication flows, and role-based route guards, with SSO integration built on top of commercial dashboard templates. Set up AWS infrastructure and CI/CD pipelines using CodePipeline, CodeDeploy, EC2, and RDS, with automated deployment notifications via Lambda and SNS — deployed across multiple production applications.`
     },
     {
       id: 2,
@@ -39,25 +35,10 @@ export class ProfileService {
       role: 'Software Programmer',
       work: 'Worked as a Full Stack Developer building web applications using Angular and Node.js.',
       contributions:
-      `Developed responsive frontend using Angular Angular and TypeScript . 
-       Built and integrated REST APIs using Node.js .
-       Handled business logic and API integration .
-       Improving application performance and user experience .
-       Worked with Postgres and MySQL .
-       Performed frontend testing using Cypress.`
-    },
-    {
-      id: 3,
-      company: 'Kaps System Private Limited',
-      location: 'Banglore',
-      timeline: 'Aug 2020 to Dec 2021',
-      role: 'Process Associate',
-      work: 'Worked as a Process Associate handling client requirements..',
-      contributions:
-      `Analyzed client requirements . 
-       Coordinated with internal teams .
-       Ensured smooth workflow communication.`
-    },
+      `Led the migration from Angular 12 to Angular 16 on the frontend and from Express + TypeORM to NestJS + Sequelize on the backend. Designed backend architecture including JWT authentication with Passport.js, dynamic PostgreSQL schema generation per tenant, and full-text search using ts_vector and implemented Cypress end-to-end testing for critical user flows.`
+   
+      
+    }
   ];
 
   projects: any = [
@@ -111,37 +92,42 @@ export class ProfileService {
   skillsData: any = [
     {
       id: '1',
-      skill: 'ANGULAR 11,12,16,19',
+
+      skill: 'Angular (12–19)',
       progress: '80%',
     },
     {
       id: '2',
-      skill: 'NODE JS',
-      progress: '80%',
-    },
-    {
-      id: '3',
       skill: 'TYPESCRIPT',
       progress: '50%',
     },
     {
+      id: '3',
+      skill: 'Node.js / NestJS',
+      progress: '70%',
+    },
+    {
       id: '4',
-      skill: 'JAVASCRIPT',
-      progress: '50%',
+  
+      skill: 'Sequelize / Prisma',
+      progress: '60%',
     },
     {
       id: '5',
-      skill: 'POSTGRES, SQL , MONOGO, FIREBASE',
+      
+      skill: 'PostgreSQL / MySQL',
       progress: '75%',
     },
     {
       id: '6',
-      skill: 'CYPRESS',
-      progress: '60%',
+      
+      skill: 'AWS (EC2, RDS, CodePipeline, Lambda)',
+      progress: '50%',
     },
     {
       id: '7',
-      skill: 'HTML/CSS',
+      
+      skill: 'CYPRESS',
       progress: '60%',
     },
   ];

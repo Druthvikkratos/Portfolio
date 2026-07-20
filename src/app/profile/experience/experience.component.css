@@ -192,3 +192,11 @@ li {
   font-weight: 400;
   font-family: "Quicksand", Arial, sans-serif;
 }
+
+
+.timeline-description {
+  line-height: 1.7;
+  color: #444;
+  margin-top: 8px;
+  max-width: 90%;
+}

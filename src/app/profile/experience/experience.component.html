@@ -24,9 +24,7 @@
                   </h2>
                   <h4>{{ exp.role }}</h4>
                   <h5>{{ exp.work }}</h5>
-                  <ul>
-                    <li *ngFor="let item of exp.contributions | split">{{ item }}</li>
-                  </ul>
+                  <p class="timeline-description">{{ exp.contributions }}</p>
                 </div>
               </div>
             </article>
