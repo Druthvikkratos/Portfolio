@@ -1,0 +1,23 @@
+@media (max-width: 991px) {
+  .navbar-nav {
+    background: darkgray !important;
+  }
+
+  .navbar-collapse {
+    background: darkgray !important;
+    backdrop-filter: blur(4px) !important;
+  }
+
+  .navbar-collapse::before,
+  .navbar-collapse::after {
+    display: none !important;
+    background: none !important;
+  }
+
+  .navbar-nav .nav-link {
+    color: black !important;
+    padding: 16px 24px;
+    font-size: 1.1rem;
+  }
+  
+}
