@@ -52,19 +52,19 @@ export class ProfileService {
     },
     {
       id: 2,
-      title: 'CRUD operation using MEAN stack',
-      desc: '',
-      githurl: 'https://github.com/Druthvikkratos/basic-crud-mean',
-      imgUrl: 'assets/images/meancrud.png',
-      tech: 'Angular 16 , Nodejs, Express, Mongodb',
-    },
-    {
-      id: 3,
       title: 'Portfolio',
       desc: '',
       githurl: 'https://github.com/Druthvikkratos/postman-portfolio',
       imgUrl: 'assets/images/postman-portfolio.png',
       tech: 'Angular 20 , Signals',
+    },
+    {
+      id: 3,
+      title: 'LedgerRecon',
+      desc: '',
+      githurl: 'https://github.com/Druthvikkratos/ledgerrecon',
+      imgUrl: 'assets/images/ledger.png',
+      tech: 'NestJS, Prisma ORM, MySQL, JWT, Angular 22, Signals,AG Grid',
     },
   ];
 
