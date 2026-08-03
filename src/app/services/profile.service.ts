@@ -9,7 +9,7 @@ export class ProfileService {
 
   resumeurl =
     'https://drive.google.com/file/d/10f89o_3W-EeDqVw0WshoddRdSoKxafWY/view?usp=sharing';
-  about2 = `Full Stack Developer with 3.5 years of experience building enterprise financial web applications. I specialize in Angular frontend architecture — HTTP interceptors, JWT-based authentication, role-based route guards (RBAC), reactive forms, AG Grid, and SSO integration. On the backend, I work with Node.js, NestJS, Sequelize, and PostgreSQL for RESTful API development. I've also set up and managed AWS infrastructure (EC2, RDS, IAM, CodePipeline, CodeDeploy, Lambda, SNS, EventBridge) for CI/CD automation. .
+  about2 = `Full Stack Developer with 3+ years of experience building enterprise financial web applications. I specialize in Angular frontend architecture — HTTP interceptors, JWT-based authentication, role-based route guards (RBAC), reactive forms, AG Grid, and SSO integration. On the backend, I work with Node.js, NestJS, Sequelize, and PostgreSQL for RESTful API development. I've also set up and managed AWS infrastructure (EC2, RDS, IAM, CodePipeline, CodeDeploy, Lambda, SNS, EventBridge) for CI/CD automation. .
   Currently upskilling in Angular 21/22 (Signals, zoneless change detection) and backend development with NestJS and Prisma.`;
 
   about =
